@@ -31,3 +31,7 @@
 #currentOutput {
     font-size: 14px;
 }
+
+.error-word {
+    text-decoration: underline wavy red;
+}

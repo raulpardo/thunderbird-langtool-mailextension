@@ -143,7 +143,7 @@ function createItem(e) {
 function createSentence(e) {
     return "" +
         e["context"].text.substring(0,e["context"].offset) +
-        "<b>" + e["context"].text.substring(e["context"].offset,e["context"].offset+e["context"].length) + "</b> " +
+        "<span class='error-word'>" + e["context"].text.substring(e["context"].offset,e["context"].offset+e["context"].length) + "</span> " +
         e["context"].text.substring(e["context"].offset+e["context"].length,e["context"].text.length);
 }
 
